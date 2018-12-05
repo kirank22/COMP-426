@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>COMP 426 Final Project</title>
+<script
+src="http://www.cs.unc.edu/~kmp/comp426fall18/jquery-3.3.1.js"></script>
+<script src="script.js"></script>
+</head>
+
+<body>
+<h1>Book your flight rnrnrnrnrn</h1>
+
+<form id = "tripinfo">
+<input type="radio" name="trip" value="roundtrip"> Round Trip
+<input type="radio" name="trip" value="oneway">One Way<br>
+
+<div id = "departurediv">
+    Departure: <input type="text" placeholder="Name/Code/State/City" id="departure">
+</div>
+<div id = "arrivaldiv">
+    Arrival: <input type="text" placeholder="Name/Code/State/City" id="arrival"><br>
+</div>
+
+<div id = "departuredatediv">
+    Departure Date: <input type = "date" id = "departuredate">
+</div>
+<div id = "arrivaldatediv">
+    Arrival Date: <input type = "date" id = "arrivaldate"><br>
+</div>
+
+<div id = "ticketnumberdiv">
+    Number of Tickets: <input type = "number" placeholder="eg. 2" id="ticketnumber">
+</div>
+
+
+<button id="search">Search Flights</button>
+</form>
+
+
+</body>
+
+</html>
